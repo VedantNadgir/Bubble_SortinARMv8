@@ -22,7 +22,7 @@ It demonstrates low-level loop control, memory access, and in-place swapping usi
 ```bash
 aarch64-linux-gnu-as bubble_sort.s -o bubble_sort.o
 aarch64-linux-gnu-ld bubble_sort.o -o bubble_sort
-qemu-aarch64 ./bubble_sort
+qemu-aarch64 ./bubble_sort```
 
 Initial array:
 255, 681, 626, 338, 309, 754, 129, 383
